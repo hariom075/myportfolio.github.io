@@ -1,0 +1,66 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add general styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(53 104 106)
+    color:#ff1763;
+}
+
+header {
+    background-color: #b662b7;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #92b31d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
